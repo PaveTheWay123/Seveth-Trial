@@ -113,9 +113,10 @@ p, a {
 
 #main-image-grid-container > .item-1 > img {
     position: absolute;
-    height: 110%; /* Adjusted height */
+    height: 120%; /* Adjusted height */
     width: auto;
     left: -90px;
+    bottom: -10px; /* Adjusted bottom */
 }
 
 #main-image-grid-container > .item-2 {
@@ -126,10 +127,10 @@ p, a {
 
 #main-image-grid-container > .item-2 > img {
     position: absolute;
-    width: 105%; /* Adjusted width */
-    height: auto;
-    top: -285%; /* Adjusted top */
-    left: -30px; /* Adjusted left */
+    width: 100%;
+    height: 80%; /* Adjusted height */
+    top: 10px; /* Adjusted top */
+    left: 0;
 }
 
 #main-image-grid-container > .item-3 {
@@ -142,11 +143,10 @@ p, a {
 
 #main-image-grid-container > .item-3 > img {
     position: absolute;
-    width: 100%;
+    width: 110%; /* Adjusted width */
     height: auto;
-    left: 0;
+    left: -30px; /* Adjusted left */
 }
-
 
 #header-section {
     width: var(--min-screen-width);
