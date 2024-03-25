@@ -113,7 +113,7 @@ p, a {
 
 #main-image-grid-container > .item-1 > img {
     position: absolute;
-    height: 100%;
+    height: 110%; /* Adjusted height */
     width: auto;
     left: -90px;
 }
@@ -126,10 +126,10 @@ p, a {
 
 #main-image-grid-container > .item-2 > img {
     position: absolute;
-    width: 100%;
+    width: 105%; /* Adjusted width */
     height: auto;
-    top: -295%;
-    left: 0;
+    top: -285%; /* Adjusted top */
+    left: -30px; /* Adjusted left */
 }
 
 #main-image-grid-container > .item-3 {
@@ -146,6 +146,7 @@ p, a {
     height: auto;
     left: 0;
 }
+
 
 #header-section {
     width: var(--min-screen-width);
